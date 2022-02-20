@@ -45,3 +45,35 @@
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
+
+/* Webfont: IBMPlexSans-Bold */@font-face {
+  font-family: 'IBMPlexSans';
+  src: font-url('IBMPlexSans-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+
+/* Webfont: IBMPlexSans-BoldItalic */@font-face {
+  font-family: 'IBMPlexSans';
+  src: font-url('IBMPlexSans-BoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+
+/* Webfont: IBMPlexSans-Italic */@font-face {
+  font-family: 'IBMPlexSans';
+  src: font-url('IBMPlexSans-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* Webfont: IBMPlexSans-Regular */@font-face {
+  font-family: 'IBMPlexSans';
+  src: font-url('IBMPlexSans-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
