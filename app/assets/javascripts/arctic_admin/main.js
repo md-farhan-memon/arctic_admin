@@ -1,7 +1,7 @@
 $(function () {
   var animationFilterDone = true
   $(document).on('click touchstart', '#sidebar', function (e) {
-    if (animationFilterDone == true) {
+    if (animationFilterDone == true && !e.target.className.includes('help-section')) {
       var position = $(this).position()
       var width = $(this).width()
       var target = e.target
